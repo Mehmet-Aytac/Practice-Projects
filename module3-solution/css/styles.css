@@ -1,0 +1,19 @@
+.item-container {
+    background-color: #a1bcd7;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.row {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav>li>a {
+        text-align: center;
+    }
+}

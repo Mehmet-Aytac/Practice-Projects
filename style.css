@@ -1,0 +1,61 @@
+/* --------------------------------
+   General
+--------------------------------- */
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+/* --------------------------------
+   Project Filters
+--------------------------------- */
+
+.project-filters {
+    display: none;
+    /*flex-wrap: wrap;
+    gap: 0.5rem;*/
+    visibility: hidden;
+}
+
+/* --------------------------------
+   Project Cards
+--------------------------------- */
+
+.project-card {
+    border: 1px solid #dee2e6;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.project-card .card-body {
+    padding: 1.5rem;
+}
+
+
+/* --------------------------------
+   Project Buttons
+--------------------------------- */
+
+.project-card .btn {
+    width: 100%;
+}
+
+
+/* --------------------------------
+   Responsive
+--------------------------------- */
+
+@media (max-width: 576px) {
+
+    header {
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,1 @@
+HTML, CSS, and Javascript for Web Developers Specialization course set by JOHN HOPKINS UNIVERSITY on Coursera. Practice Assignment 3
